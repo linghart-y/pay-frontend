@@ -1,4 +1,4 @@
-# Test task, payment system prototype
+# Test task, payment system prototype, FRONTEND
 
 First, make sure you have Node >= 8 and NPM >= 5.
 
