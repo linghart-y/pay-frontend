@@ -42,7 +42,7 @@ module.exports = function (ctx) {
       https: false,
       proxy: {
         "/api": {
-          target: "http://tt.local",
+          target: "http://127.0.0.1:8000",
           pathRewrite: {"^/api" : "api"}
         }
       }      
