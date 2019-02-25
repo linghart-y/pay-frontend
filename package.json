@@ -1,0 +1,43 @@
+{
+  "name": "quasar-jwt",
+  "version": "1.0.0",
+  "description": "JWT authentication for Quasar Framework",
+  "productName": "Quasar JWT",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Sasa Skoko",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@websanova/vue-auth": "2.21.14-beta",
+    "axios": "^0.18.0",
+    "vue-axios": "^2.0.2",
+    "vuelidate": "^0.7.4",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "5.6.1",
+    "eslint-config-standard": "12.0.0",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "eslint-plugin-vue": "4.7.1",
+    "quasar-cli": "^0.17.20",
+    "strip-ansi": "^3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
